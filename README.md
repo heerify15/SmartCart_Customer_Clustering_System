@@ -111,10 +111,10 @@ The clustering algorithms successfully identified different customer segments ba
 
 The identified segments represent different customer behaviors such as:
 
-- 🟢 High-value customers
-- 🔵 Regular customers
-- 🟡 Low-engagement customers
-- 🔴 Potential customers
+- 🔵 Budget Family Shoppers
+- 🟡 Premium Loyal Customers
+- 🟢 Low-Value Solo Shoppers
+- 🔴 High-Value Responsive Customers
 
 These insights can help businesses create targeted strategies and improve customer relationships.
 
