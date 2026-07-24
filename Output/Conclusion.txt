@@ -1,0 +1,25 @@
+Conclusion:
+
+In this project, customer segmentation was performed on the SmartCart e-commerce dataset using unsupervised machine learning techniques. 
+The data was cleaned, preprocessed, standardized, and analyzed to identify meaningful customer groups based on purchasing behavior, 
+income, engagement, and demographic attributes.
+
+K-Means clustering was applied after feature scaling, and the optimal number of clusters was evaluated using the Elbow Method, 
+Silhouette Score & Dendrogram. Although different evaluation techniques suggested different cluster values, 4 clusters were selected because 
+they provided the most interpretable and actionable customer segments. The selected K=4 model achieved a Silhouette Score of 0.379, 
+indicating a reasonable level of cluster separation and cohesion.
+
+The identified customer segments were:
+
+1. Budget Family Shoppers: Customers with lower income and spending patterns, generally purchasing fewer products and requiring value-based offers.
+2. Premium Loyal Customers: High-income customers with the highest spending and frequent purchases across multiple channels, representing valuable customers 
+			    for retention strategies.
+3. Low-Value Solo Shoppers: Customers with lower engagement and spending, who can be targeted with personalized recommendations and promotional campaigns.
+4. High-Value Responsive Customers: High-income customers with strong purchasing behavior and the highest response rate, making them ideal targets for 
+				    focused marketing campaigns.
+
+The clustering analysis helps SmartCart understand customer behavior and enables data-driven decisions such as personalized marketing, 
+customer retention strategies, loyalty programs, and targeted promotions.
+
+Overall, this project demonstrates how unsupervised learning can transform raw customer data into meaningful business insights and improve 
+customer relationship management.
