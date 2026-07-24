@@ -1,0 +1,64 @@
+Each row in the dataset represents a customer and contains multiple attributes describing their spending and activity on platform.
+
+A. Customer Demographics
+
+  Feature                                                     Description
+
+1.  ID--------------------------------------------------Unique customer identifier
+
+2.  Year_Birth------------------------------------------Year of birth of the customer
+
+3.  Education-------------------------------------------Highest education level achieved
+
+4.  Marital_Status--------------------------------------Marital status of the customer
+
+5.  Income----------------------------------------------Yearly household income
+
+6.  Kidhome---------------------------------------------Number of small children in household
+
+7.  Teenhome--------------------------------------------Number of teenagers in household
+
+8.  Dt_Customer-----------------------------------------Date when customer enrolled with SmartCart
+
+
+
+B. Purchase Behaviour (Amount Spent)
+
+    Feature                                                    Description
+
+1.  MntWines--------------------------------------------Amount spent on wine products
+
+2.  MntFruits-------------------------------------------Amount spent on fruits
+
+3.  MntMeatProducts-------------------------------------Amount spent on meat products
+
+4.  MntFishProducts-------------------------------------Amount spent on fish products
+
+5.  MntSweetProducts------------------------------------Amount spent on sweet products
+
+6.  MntGoldProds----------------------------------------Amount spent on gold productsAmount spent on wine products
+
+
+
+C. Purchase Behaviour (Frequency)
+
+        Feature                                                 Description
+
+1.  NumDealsPurchases----------------------------------Purchases made using discounts
+
+2.  NumWebPurchases------------------------------------Purchases made through website
+
+3.  NumCatalogPurchases--------------------------------Purchases made through catalog
+
+4.  NumStorePurchases----------------------------------Purchases made in physical stores
+
+5.  NumWebVisitsMonth----------------------------------Number of visits to website per month
+
+
+
+D. Customer Feedback & Constants
+
+    Feature                                                       Description
+
+1.  Recency--------------------------------------------Number of days since last purchase
+2.  Complain-------------------------------------------Customer complained in last 2 years (1 = Yes, 0 = No)
